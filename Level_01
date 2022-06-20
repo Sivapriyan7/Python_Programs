@@ -1,0 +1,12 @@
+def myfun1(*A):
+    for arg in A:
+        print(arg, end = " ")
+
+#variable keyword arguments
+
+def myfun2(**B):
+    for key, value in B.items():
+        print("%s == %s "% (key, value))
+
+myfun1('hello'.'welcome','to','smv')
+print()
